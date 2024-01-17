@@ -27,19 +27,11 @@ print(dinner)
 kids = Menu("kids", { 'chicken nuggets': 6.50, 'fusilli with wild mushrooms': 12.00, 'apple juice': 3.00 }, '11am', '9pm' )
 print(kids)
 
-'''
-	def calculate_bill(self, purchased_items):
-		total_price = sum(self.items[item] for item in purchased_items if item in self.items)
-	return total_price
-'''
-
-
 brunch_order = ['pancakes', 'home fries', 'coffee']
 print(f"The total cost for brunch order: ${brunch.calculate_bill(brunch_order)}")
 
 early_bird_order = ['salumeria plate', 'mushroom ravioli (vegan)']
 print(f"The total cost for early-bird order: ${early_bird.calculate_bill(early_bird_order)}")
-
 
 class franchise:
 	def __init__(self, address, menus):
